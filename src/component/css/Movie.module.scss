@@ -1,0 +1,126 @@
+.movieWrap {
+  width: 95%;
+  margin: 0 auto;
+  > div:nth-child(2) {
+    box-shadow: 1px 2px 0 1.5px #999, 0 -0.2px 0 0 #999;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  button {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+}
+.navWrap {
+  padding: 6px 12px;
+  span {
+    font-size: 2.5em;
+    padding: 6px 15px;
+  }
+}
+
+.infoWrap {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  li:first-child {
+    border: solid 1px #030303;
+    box-shadow: 0 0 3px #eee;
+    background-color: #fefefe;
+    text-align: center;
+    max-height: 250px;
+    img {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  li {
+    width: 100%;
+    padding: 10px;
+    > h4 {
+      font-size: 1.23em;
+    }
+    > p {
+      padding-top: 5px;
+      font-size: 1.1em;
+      font-weight: 600;
+      > span {
+        padding-left: 5px;
+        font-weight: 500;
+      }
+    }
+    button {
+      display: block;
+      width: 90%;
+      height: 30px;
+      margin: 10px auto 0 auto;
+      background-color: #fff;
+      border: 1px solid black;
+    }
+  }
+}
+
+.reviewWrap {
+  .writeReview {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    > form {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      textarea {
+        width: 90%;
+        height: 15vh;
+        padding: 10px;
+        font-size: 1.3em;
+        outline: none;
+        border: 1px solid black;
+      }
+      button {
+        display: block;
+        width: 90%;
+        height: 35px;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: #38a9ea;
+        color: #fff;
+      }
+    }
+  }
+  .readReview {
+    width: 100%;
+    padding: 30px 0 0 0;
+    button {
+      display: inline-block;
+      border: none;
+      font-size: 1.1em;
+      width: 30%;
+      height: 30px;
+    }
+    .review {
+      p {
+        padding: 5px;
+      }
+    }
+  }
+}

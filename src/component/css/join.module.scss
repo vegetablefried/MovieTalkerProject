@@ -1,0 +1,45 @@
+.wrap {
+  width: 90%;
+  border: solid 1px #eee;
+  box-shadow: 0 0 3px #eee;
+  background-color: #fefefe;
+  color: #555;
+  padding: 30px;
+  input {
+    width: 100%;
+    height: 50px;
+  }
+  h3 {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+}
+
+.form {
+  margin-top: 35px;
+  p {
+    padding-top: 10px;
+  }
+  input {
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+
+  > div:nth-child(1) {
+    color: red;
+  }
+
+  .inputDivision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      font-size: 1.5em;
+      padding: 10px;
+    }
+  }
+}
